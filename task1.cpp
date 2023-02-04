@@ -101,6 +101,9 @@ int main()
         deq.clear();
         return 0;
     }
+    
+    if (act == 9)
+        return 0;
 
     cout << "Вывести содержимое дека? (1 - да, 0 - нет) ";
     int prnt;
