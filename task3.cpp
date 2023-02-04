@@ -30,16 +30,6 @@ int main()
     cout << endl << "Введите значение К" << endl;
     int k;
     cin >> k;
-    int size = vec.size();
-    int p = 0;
-    for (int i = 0; i < size; i++)
-    {
-        int z = vec[i];
-        if (z > k)
-        {
-            p += 1;
-        }
-    }
     auto it = vec.begin();
     int n = vec.size();
     while (n--)
