@@ -80,14 +80,8 @@ int main()
 
     if (act == 6)
     {
-        deque <int> deq_temp;
-        deq_temp = deq;
-        int size = deq_temp.size();
-        for (size; size > 0; size--)
-        {
-            cout << deq_temp.front();
-            deq_temp.pop_front();
-        }
+        for (int i = 0; i < deq.size(); i++
+             cout << deq[i];
         return 0;
     }
 
